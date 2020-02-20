@@ -33,7 +33,7 @@ fun convertToNumericalFormat(coord: String, alphabet: CharArray): String {
         powerOf26 *= 26
     }
 
-    return "R${row}C${convertedColumn}"
+    return "R${row}C$convertedColumn"
 }
 
 fun main() {
