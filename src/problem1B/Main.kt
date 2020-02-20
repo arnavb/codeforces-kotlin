@@ -29,7 +29,7 @@ fun convertToNumericalFormat(coord: String, alphabet: CharArray): String {
 
     var powerOf26 = 1
     for (i in column.length - 1 downTo 0) {
-        convertedColumn += powerOf26 * (alphabet.binarySearch(column[i]))
+        convertedColumn += powerOf26 * alphabet.binarySearch(column[i])
         powerOf26 *= 26
     }
 
