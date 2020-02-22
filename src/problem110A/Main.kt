@@ -1,4 +1,4 @@
-//package problem110A
+package problem110A
 
 fun isNearlyLucky(number: String): Boolean {
     var numLuckyDigits = 0
