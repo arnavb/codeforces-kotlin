@@ -1,3 +1,3 @@
-# codeforces-kotlin
+# competitive-programming-kotlin
 
-Codeforces solutions, implemented in Kotlin.
+Various competitive programming problems, implemented in Kotlin.
