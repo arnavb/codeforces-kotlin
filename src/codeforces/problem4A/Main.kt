@@ -5,6 +5,6 @@ fun canDivideWatermelon(weight: Int) =
 
 fun main() {
     val input = readLine()!!.toInt()
-    val result = canDivideWatermelon(input)
-    println(if (result) "YES" else "NO")
+
+    println(if (canDivideWatermelon(input)) "YES" else "NO")
 }
