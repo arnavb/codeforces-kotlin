@@ -1,4 +1,5 @@
 package leetcode.problem21
+
 /**
  * Example:
  * var li = ListNode(5)
