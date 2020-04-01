@@ -1,0 +1,5 @@
+language: minimal
+
+install: curl -sSLO https://github.com/pinterest/ktlint/releases/download/0.35.0/ktlint && chmod a+x ktlint
+
+script: ./ktlint
