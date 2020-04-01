@@ -10,7 +10,7 @@ fun switchCase(word: String): String {
 
     if (word.all { it.isUpperCase() }) {
         return word.toLowerCase()
-    } else if (word.substring(1).all{ it.isUpperCase() }) {
+    } else if (word.substring(1).all { it.isUpperCase() }) {
         return "${word[0].toUpperCase()}${word.substring(1).toLowerCase()}"
     }
     return word

@@ -10,7 +10,6 @@ fun compareStrings(first: String, second: String): Int {
     }
 }
 
-
 fun main() {
     val first = readLine()!!
     val second = readLine()!!

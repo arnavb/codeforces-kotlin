@@ -4,7 +4,7 @@ import kotlin.math.max
 import kotlin.math.min
 
 fun main() {
-    val (m, n) = readLine()!!.split(' ').map{ it.toInt() }
+    val (m, n) = readLine()!!.split(' ').map { it.toInt() }
     val larger = max(m, n)
     val smaller = min(m, n)
 
